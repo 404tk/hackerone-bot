@@ -24,6 +24,6 @@ jobs:
                 pip install -U requests
             - name: Run app
               run: |
-                python git_monitor.py
+                python hackerone.py
               env:
                 DINGTALK_TOKEN: ${{ secrets.DINGTALK_TOKEN }}
