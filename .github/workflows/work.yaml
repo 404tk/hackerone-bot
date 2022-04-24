@@ -6,7 +6,7 @@ on:
             - master
     workflow_dispatch: # 手动触发
     schedule:
-        - cron: '30 9 * * *'
+        - cron: '30 1 * * *' # 北京时间 9:30 AM
 jobs:
     build:
         runs-on: ubuntu-latest
